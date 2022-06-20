@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import TopCircle from './TopCircle';
+import BottomCircle from './BottomCircle';
+import TopPattern from './TopPattern';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className='bg-custom-baseBG h-screen overflow-hidden'>
+        <div className='container mx-auto  '>
+          <div className='grid place-items-center h-screen '>
+          <TopPattern/>
+            {/* <div className='p-4 bg-white rounded-2xl z-30 drop-shadow-lg shadow-md'>
+          
+            </div> */}
+          </div>
+          {/* <BottomCircle /> */}
+          {/* <TopCircle /> */}
+        </div>
+      </div>
     </div>
   );
 }
