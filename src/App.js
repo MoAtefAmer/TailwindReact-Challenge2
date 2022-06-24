@@ -2,6 +2,8 @@ import './App.css';
 import TopCircle from './TopCircle';
 import BottomCircle from './BottomCircle';
 import TopPattern from './TopPattern';
+import BottomCard from './BottomCard';
+import FullCard from './FullCard';
 
 function App() {
   return (
@@ -9,10 +11,10 @@ function App() {
       <div className='bg-custom-baseBG h-screen overflow-hidden'>
         <div className='container mx-auto  '>
           <div className='grid place-items-center h-screen '>
-          <TopPattern/>
-            {/* <div className='p-4 bg-white rounded-2xl z-30 drop-shadow-lg shadow-md'>
+            
+          <FullCard/>
+           
           
-            </div> */}
           </div>
           {/* <BottomCircle /> */}
           {/* <TopCircle /> */}
