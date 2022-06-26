@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TailwindReact-Challenge2/static/css/main.41fe0c67.css",
+    "main.js": "/TailwindReact-Challenge2/static/js/main.e998e092.js",
+    "index.html": "/TailwindReact-Challenge2/index.html",
+    "main.41fe0c67.css.map": "/TailwindReact-Challenge2/static/css/main.41fe0c67.css.map",
+    "main.e998e092.js.map": "/TailwindReact-Challenge2/static/js/main.e998e092.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41fe0c67.css",
+    "static/js/main.e998e092.js"
+  ]
+}
