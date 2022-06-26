@@ -19,6 +19,9 @@ module.exports = {
       },
       translate :{
         topCircle:'920px'
+      },
+      fontFamily:{
+        Kumba:["Kumbh Sans","sans-serif"]
       }
     },
   },

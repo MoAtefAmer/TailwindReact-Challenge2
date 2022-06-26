@@ -4,7 +4,7 @@ import TopPattern from "./TopPattern";
 
 export default function FullCard() {
   return (
-    <div className="static">
+    <div className="static z-40">
       <TopPattern />
       <BottomCard />
     </div>
